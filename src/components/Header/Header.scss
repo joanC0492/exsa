@@ -1,0 +1,13 @@
+.logo{
+  &__figure{
+    display: inline-block;
+    margin: 0;
+  }
+  &__img{
+    max-width: 90px;
+    height:auto;
+    @media(min-width: 900px){
+      max-width: 112px;  
+    }
+  }
+}
